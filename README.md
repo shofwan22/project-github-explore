@@ -1,36 +1,35 @@
-# Rsbuild project
+# Project Github Explorer
 
-## Setup
+It is recommended to use node js version 18.13.0 
 
-Install the dependencies:
+## Setup Local
 
-```bash
-pnpm install
-```
 
-## Get started
-
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
+Make sure to install the dependencies:
 
 ```bash
-pnpm dev
+# npm
+npm install
 ```
 
-Build the app for production:
+## Development Server
+
+Start the development server on http://localhost:3000
 
 ```bash
-pnpm build
+npm run dev
 ```
 
-Preview the production build locally:
+## Production
+
+Build the application for production:
 
 ```bash
-pnpm preview
+npm run build
 ```
 
-## Learn more
-
-To learn more about Rsbuild, check out the following resources:
-
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+## Testing 
+Running unit test 
+```bash
+npm test
+```
